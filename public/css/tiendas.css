@@ -1,0 +1,38 @@
+
+
+#mapid { 
+    width:70%;
+    height:500px;
+    margin: 1.25rem auto;
+    
+     }
+
+.tiendaNombre > p{
+    text-align: justify;
+}
+
+.tiendasPopup{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    word-spacing: 5px;
+    
+  
+}
+
+.tiendasPopup li{
+    margin: auto;
+}
+
+@media screen and (max-width: 600px){
+    #mapid { 
+        width:90%;
+        height:300px;
+        margin: 20px auto;
+                 }
+    .leaflet-popup-content-wrapper{
+        width: 247px;
+    }
+    .leaflet-popup-content{
+        width: 200px;
+    }
+
+}
